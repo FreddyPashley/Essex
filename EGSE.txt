@@ -225,6 +225,7 @@ climbaltitude = 4000
 [area1]
 shape = polygon
 altitude = 1500
+name = MVA
 textpos = 14.27, 1.16
 points =
 	N51.904444444444, E0.44805555555556
@@ -251,6 +252,7 @@ points =
 [area2]
 shape = polygon
 altitude = 1500
+name = MVA
 textpos = 3.45, -17.21
 points =
 	N51.752222222222, E0.21916666666667
@@ -276,7 +278,8 @@ points =
 #SS CTA 3
 [area3]
 shape = polygon
-altitude = 2500		; minimum allowed altitude in feet
+altitude = 2500
+name = MVA
 textpos = 15.80, -10.63
 points =
 	N51.974444444444, E0.55388888888889
@@ -290,7 +293,8 @@ points =
 #SS CTA 4
 [area4]
 shape = polygon
-altitude = 2500		; minimum allowed altitude in feet
+altitude = 2500	
+name = MVA
 textpos = 4.31, -0.58
 points =
 	N52.05, E0.15194444444444
@@ -377,7 +381,8 @@ points =
 #GW CTA 1
 [area7]
 shape = polygon
-altitude = 2500		; minimum allowed altitude in feet
+altitude = 2500	
+name = MVA
 textpos = -3.10, -8.32
 points =
 	N51.9825, W0.24277777777778
@@ -399,7 +404,8 @@ points =
 #GW CTA 2
 [area8]
 shape = polygon
-altitude = 2500		; minimum allowed altitude in feet
+altitude = 2500
+name = MVA
 textpos = -23.49, -15.07
 points =
 	N51.802777777778, W0.69861111111111
@@ -411,7 +417,8 @@ points =
 #GW CTA 3
 [area9]
 shape = polygon
-altitude = 2500		; minimum allowed altitude in feet
+altitude = 2500
+name = MVA
 textpos = -24.89, -11.05
 points =
 	N51.802777777778, W0.69861111111111
@@ -423,7 +430,8 @@ points =
 #GW CTA 4
 [area10]
 shape = polygon
-altitude = 3500		; minimum allowed altitude in feet
+altitude = 3500
+name = MVA
 textpos = -28.35, -12.08
 points =
 	N51.863888888889, W0.72666666666667
@@ -435,7 +443,8 @@ points =
 #GW CTA 5
 [area11]
 shape = polygon
-altitude = 3500		; minimum allowed altitude in feet
+altitude = 3500
+name = MVA
 textpos = -18.09, -5.46
 points =
 	N52.010555555556, W0.47555555555556
@@ -449,7 +458,8 @@ points =
 #GW CTA 6
 [area12]
 shape = polygon
-altitude = 4500		; minimum allowed altitude in feet
+altitude = 4500
+name = MVA
 textpos = -22.31, -3.83
 points =
 	N52.054444444444, W0.57805555555556
@@ -462,7 +472,8 @@ points =
 #GW CTA 7
 [area13]
 shape = polygon
-altitude = 3500		; minimum allowed altitude in feet
+altitude = 3500
+name = MVA
 textpos = -11.97, -0.34
 points =
 	N52.101666666667, W0.28666666666667
@@ -474,7 +485,8 @@ points =
 #GW CTA 8
 [area14]
 shape = polygon
-altitude = 3500		; minimum allowed altitude in feet
+altitude = 3500	
+name = MVA
 textpos = -25.94, -8.53
 points =
 	N51.863888888889, W0.72666666666667
@@ -485,7 +497,8 @@ points =
 #GW CTA 9
 [area15]
 shape = polygon
-altitude = 4500		; minimum allowed altitude in feet
+altitude = 4500
+name = MVA
 textpos = -28.90, -8.64
 points =
 	N51.863888888889, W0.72666666666667
@@ -565,7 +578,8 @@ points =
 #CLACTON CTA 10
 [area18]
 shape = polygon
-altitude = 7500		; minimum allowed altitude in feet
+altitude = 7500
+name = MVA
 textpos = -1.16, 11.81
 points =
 	N52.308888888889, W0.085277777777778
@@ -577,31 +591,88 @@ points =
 	N52.190555555556, W0.37222222222222
 	N52.308888888889, W0.085277777777778
 
-#CLACTON CTA 11
+#DAVENTRY CTA 21
 [area19]
 shape = polygon
-altitude = 10500		; minimum allowed altitude in feet
-textpos = 10.97, 12.55
+altitude = 7500
+name = MVA
+textpos = -12.40, 20.53
 points =
-	N52.286666666667, E0.15972222222222
-	N52.268333333333, E0.41861111111111
-	N52.184722222222, E0.40277777777778
-	N52.184722222222, E0.23666666666667
-	N52.286666666667, E0.15972222222222
+	N52.442222222222, W0.61722222222222
+	N52.440833333333, W0.23777777777778
+	N52.315277777778, W0.11638888888889
+	N52.308888888889, W0.085277777777778
+	N52.190555555556, W0.37222222222222
+	N52.282777777778, W0.46138888888889
+	N52.442222222222, W0.61722222222222
 
-#CLACTON CTA 21
-[area19]
+#LONDON TMA 6
+[area20]
 shape = polygon
-altitude = 10500		; minimum allowed altitude in feet
-textpos = 10.97, 12.55
+altitude = 4500
+name = MVA
+textpos = -1.29, 2.26
 points =
-	52.442222222222, -0.61722222222222
-	52.440833333333, -0.23777777777778
-	52.315277777778, -0.11638888888889
-	52.308888888889, -0.085277777777778
-	52.190555555556, -0.37222222222222
-	52.282777777778, -0.46138888888889
-	52.442222222222, -0.61722222222222
+	N52.101666666667, W0.28666666666667
+	N52.102222222222, E0.23055555555556
+	N52.05, E0.15194444444444
+	N51.961944444444, W0.3625
+	N52.010555555556, W0.47555555555556
+	N52.101666666667, W0.28666666666667
+
+#LONDON TMA 9
+[area21]
+shape = polygon
+altitude = 5500	
+name = MVA
+textpos = -1.55, 6.80
+points =
+	N52.184444444444, W0.36638888888889
+	N52.184444444444, E0.091111111111111
+	N52.101666666667, E0.43055555555556
+	N52.101666666667, W0.28666666666667
+	N52.184444444444, W0.36638888888889
+
+#LONDON TMA 16
+[area22]
+shape = polygon
+altitude = 5500
+name = MVA
+textpos = 25.33, 3.40
+points =
+	N52.096666666667, E0.45027777777778
+	N52.120277777778, E0.86361111111111
+	N52.006666666667, E0.81333333333333
+	N52.096666666667, E0.45027777777778
+
+#LONDON TMA 19
+[area23]
+shape = polygon
+altitude = 7500
+name = MVA
+textpos = 20.87, 7.74
+points =
+	N52.096666666667, E0.45027777777778
+	N52.184444444444, E0.091111111111111
+	N52.184444444444, E0.545
+	N52.205833333333, E0.80527777777778
+	N52.120277777778, E0.86361111111111
+	N52.096666666667, E0.45027777777778
+
+#LONDON TMA 7
+[area24]
+shape = polygon
+altitude = 4500
+name = MVA
+textpos = 28.93, -12.02
+points =
+	N51.733611111111, E0.73666666666667
+	N52.040555555556, E0.67777777777778
+	N52.0125, E0.79
+	N51.741944444444, E0.84388888888889
+	N51.605, E0.92555555555556
+	N51.571388888889, E0.83333333333333
+	N51.733611111111, E0.73666666666667
 
 
 [departure1]
