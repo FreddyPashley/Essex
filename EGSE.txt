@@ -52,8 +52,10 @@ beacons =
 
 #boundary = 
 
-#handoff = 
-
+handoff = 
+	090, London Control, London Control, 121.280
+	270, London Control, London Control, 118.625
+	180, London Control, London Control, 134.125
 wake =
 	3/0,	4/100,	5/120,	5/140,	6/160,	8/180
 	0/0,	3/0,	4/0,	4/100,	5/120,	7/140
