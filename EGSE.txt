@@ -17,7 +17,7 @@ letters = 2
 separation = 2.5
 automatic = true
 strictspawn = true
-name = Stansted Radar, Stan Stead Radar
+name = Stansted Radar, Stansted Radar
 decimaldegrees = false
 center = N52.023888888889, W0
 magneticvar = 0.61
@@ -267,6 +267,8 @@ airlines =
 	WZZ, 9, A320/A21N, WIZZ AIR, NES
 	EZY, 6, A320/A319/A20N, EZY, NESW
 	RYR, 4, B738/B38M, RYAN AIR, NESW
+	CRX, 2, C700, CROSS AIR, NESW
+	EXS, 5, A21N/B38M, CHANNEX, ESW
 	
 
 climbaltitude = 4000
@@ -723,6 +725,15 @@ points =
 	N51.605, E0.92555555555556
 	N51.571388888889, E0.83333333333333
 	N51.733611111111, E0.73666666666667
+
+#LONDON TMA 3
+[area25]
+shape = polygon
+altitude = 3500
+name = MVA
+textpos = 27, -10
+points =
+	
 
 
 [departure1]
